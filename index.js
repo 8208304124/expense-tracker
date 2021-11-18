@@ -17,7 +17,7 @@ if (leadsFromLocalStorage1 && leadsFromLocalStorage2 && leadsFromLocalStorage3) 
 }
 
 function add(){
-     if(input.value ==="" && idate.value==="" && inumber.value==="")
+     if(input.value =="" && idate.value=="" && inumber.value=="")
     return alert("Please Enter Details");
 names.push(input.value);
 date.push(idate.value);
