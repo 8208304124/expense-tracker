@@ -1,0 +1,32 @@
+<html>
+<link rel="stylesheet" href="index.css">
+<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+
+<body>
+
+    <center>
+        <h1>Expense Tracker</h1>
+
+        <p style="color:white;font-size: 22px;">Add A new Item :</p>
+     </center>>   
+        <p style="color:white;margin-left:25%;">Name :
+            <input type="text" id="input" placeholder="Where was the expense made?">
+        </p><br>
+
+        <p style="color:white;font-size: 16px;margin-left:25%;">
+        Date : <input type="date" id="idate" placeholder="dd/mm/yyyy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Amount : <input type="number" id="inumber" placeholder="Enter Ammount">
+        </p><br>
+        <center>  <button onclick="add()" >Add Expense</button>
+        <br><br><br><br><br>
+   
+        <table id="table" class="styled-table">
+            
+          
+        </table>
+        
+    </center>
+    <script src="index.js"></script>
+</body>
+
+</html>
